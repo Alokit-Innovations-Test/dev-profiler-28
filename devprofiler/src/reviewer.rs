@@ -15,7 +15,7 @@ struct Reviews {
 #[derive(Debug, Serialize, Default, Deserialize)]
 struct ReviewItem {
 	base_head_commit: String,
-	pr_head_commit: String,
+	pr_head_commit: Strin
 	id: String,
 }
 
